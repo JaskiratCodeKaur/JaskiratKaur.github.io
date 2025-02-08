@@ -535,7 +535,7 @@ header .logo i {
 /* education section starts */
 /* Education section */
 .education {
-  background-color: #101010;
+  background-color: rgba(211, 211, 211, 0.2); /* Transparent grey background */;
   padding-top: 0;
   margin-bottom: 0;
   min-height: auto; /* or remove this if unnecessary */
@@ -561,6 +561,7 @@ header .logo i {
   height: 500px;
   margin-top: 0;
   padding: 0;
+ 
 }
 
 
@@ -568,14 +569,13 @@ header .logo i {
 .education .box-container .box {
   display: flex;
   flex-direction: row;
-  width: 80%;
+  width: 100%;
   text-align: center;
   position: relative;
   margin-top: 40px;
   overflow: hidden;
   transition: 0.3s;
   height: 400px;
-  background: rgba(211, 211, 211, 0.2); /* Transparent grey background */
   padding: 50px;
 }
 
