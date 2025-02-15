@@ -168,7 +168,7 @@ header .logo i {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
-  min-height: 100vh;
+  min-height: 80vh;
   background-image: url('./assets/images/background.jpg');
   align-items: center;
 }
@@ -199,10 +199,19 @@ header .logo i {
 .home .image {
   flex: 1 1 40rem;
   z-index: 1;
+  display: flex;
+  align-items: flex-end; /* Push the image to the bottom */
+  justify-content: center;
+  margin-bottom: 0;
+ 
 }
+
 .home .image img {
-  width: 80%;
+  width: 60%;
   cursor: pointer;
+  height: 60%;
+  margin-left: 120px;
+  margin-top: 2px;
 }
 
 .home .content h2 {
@@ -387,11 +396,11 @@ header .logo i {
 .about .row {
   display: flex;
   flex-direction: row;
-  gap: 2rem;
+  gap: 1rem;
   flex-wrap: wrap;
   padding: 4rem;
-  max-height: 1000px; /* Reduces the maximum width of the section */
-  margin: 0 auto; /* Centers the section */
+  max-height: 700px; /* Reduces the maximum width of the section */
+  margin: 0; /* Centers the section */
 }
 
 .about .row .image {
