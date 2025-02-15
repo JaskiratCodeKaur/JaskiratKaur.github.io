@@ -338,11 +338,8 @@ header .logo i {
 }
 
 .skill-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 
-    0 10px 15px rgba(255, 126, 185, 0.3),  /* Light pink */
-    0 5px 10px rgba(255, 179, 217, 0.5),  /* Lighter pink */
-    0 0 20px rgba(255, 105, 180, 0.7);   /* Darker pink */
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 10px #FFD700;
 }
 
 /* Skill Image inside each item */
@@ -925,10 +922,7 @@ experience {
 
 .contact-card:hover {
   transform: translateY(-5px);
-  box-shadow: 
-    0 10px 15px rgba(255, 126, 185, 0.3),  /* Light pink */
-    0 5px 10px rgba(255, 179, 217, 0.5),  /* Lighter pink */
-    0 0 20px rgba(255, 105, 180, 0.7);   /* Darker pink */
+  box-shadow: 0px 4px 10px #FFD700;
 }
 
 .contact-card a {
