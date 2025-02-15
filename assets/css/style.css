@@ -46,7 +46,6 @@ header {
   height: 6.5rem;
 }
 section {
-  min-height: 100vh;
   padding: 2rem 9%;
 }
 .heading {
@@ -701,6 +700,16 @@ header .logo i {
   width: 100%;
 }
 
+.project-end {
+  display: flex; /* Ensures images stay in a row */
+  justify-content: center; /* Centers images horizontally */
+  align-items: center; /* Aligns them vertically */
+  gap: 20px; /* Space between images */
+  flex-wrap: nowrap; 
+  width: 100%; 
+}
+
+
 .project-img {
   width: 100%;
   height: auto;
@@ -720,7 +729,6 @@ header .logo i {
 /* experience section starts */
 .experience .timeline {
   position: relative;
-  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -745,7 +753,6 @@ header .logo i {
   background: #D4AF37; /* Gradient bottom border */
 }
 
-
 experience {
   background-color: rgba(255, 255, 255, 0.1); /* Transparent background */
   border-radius: 8px;
@@ -755,6 +762,7 @@ experience {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease-in-out;
   margin-bottom: 0;
+  min-height: 0; /* Sets the minimum height to 0 */
 }
 
 .experience .timeline::after {
@@ -834,7 +842,7 @@ experience {
   background: #D4AF37; /* Pink gradient background */
   border-radius: 8px; /* Rounded corners */
   transition: all 0.3s ease-in-out; /* Smooth transition */
-  box-shadow: 0 4px 10px rgba(255, 105, 180, 0.3); /* Box shadow effect */
+  box-shadow: 0px 4px 10px #D4AF37; /* Box shadow effect */
 }
 .experience .content .tag {
   font-size: 1.3rem;
@@ -897,10 +905,9 @@ experience {
 
 /* Contact Section */
 .contact {
-  padding: 20px 0;
+  margin-top: 0 !important;
   background-color:  #101010;
   text-align: center;
-  margin-top: 0;
   min-height: auto; /* or remove this if unnecessary */
 }
 
@@ -935,13 +942,7 @@ experience {
   box-shadow: 0px 4px 10px #D4AF37;
 }
 
-.contact-card a {
-  color: #333;
-  text-decoration: none;
-  font-size: 1.2rem;
-  display: block;
-  margin-top: 10px;
-}
+
 
 .contact-card i {
   font-size: 2rem;
@@ -953,9 +954,6 @@ experience {
   margin-top: 10px;
   color: white;
 }
-
-
-
 
 /* contact section media queries starts */
 @media (max-width: 600px) {
