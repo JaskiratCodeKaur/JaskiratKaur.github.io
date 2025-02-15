@@ -60,7 +60,7 @@ header .logo {
   font-size: 1.9rem;
   font-weight: 800;
   text-decoration: none;
-  color: #FFD700;
+  color: #D4AF37;
 }
 header .logo i {
   font-size: 2.2rem;
@@ -81,7 +81,7 @@ header .logo i {
   font-weight: 600;
   text-decoration: none;
   color: #ffffff; /* White text */
-  background: #FFD700; /* Pink gradient */
+  background: #D4AF37; /* Pink gradient */
   border-radius: 8px;
   transition: all 0.3s ease-in-out;
   box-shadow: 0 4px 10px rgba(255, 105, 180, 0.3);
@@ -100,7 +100,7 @@ header .logo i {
 }
 
 .resumebtn .btn:hover {
-  background: #FFD700; /* Lighter pink on hover */
+  background: #D4AF37; /* Lighter pink on hover */
   box-shadow: 0 6px 15px rgba(255, 105, 180, 0.4);
 }
 
@@ -219,7 +219,7 @@ header .logo i {
 }
 .home .content p span {
   font-size: 2.5rem;
-  color: #FFD700;
+  color: #D4AF37;
   font-weight: 600;
   padding: 1rem 0;
 }
@@ -381,6 +381,7 @@ header .logo i {
 .about {
   background: rgba(211, 211, 211, 0.2);
   padding: 4rem 0; /* Optional: Adds vertical spacing */
+  color: #FFFFFF;
 }
 
 .about .row {
@@ -544,7 +545,7 @@ header .logo i {
   font-weight: 600;
   color: #fff;
   margin: 0;
-  border-bottom: 2px solid #FFD700; /* Pink bottom border */
+  border-bottom: 2px solid #D4AF37; /* Pink bottom border */
   text-align: left;
 }
 
@@ -587,7 +588,7 @@ header .logo i {
 
 /* Image inside the container */
 .education .box-container .box img {
-  width: 300px;
+  width: 400px;
   height: 300px;
   border-radius: 5px;
 }
@@ -600,7 +601,7 @@ header .logo i {
   padding: 1rem;
   flex-wrap: wrap;
   flex: 1 1 70rem;
-  color: #FFD700;
+  color: #FFFFFF;
 }
 
 /* Title */
@@ -732,7 +733,7 @@ header .logo i {
   left: 0;
   width: 100%;
   height: 4px;
-  background: #FFD700; /* Gradient bottom border */
+  background: #D4AF37; /* Gradient bottom border */
 }
 
 
@@ -772,7 +773,7 @@ experience {
   height: 25px;
   right: -17px;
   background-color: rgb(255, 255, 255);
-  border: 4px solid #FFD700; /* Deep pink border */
+  border: 4px solid #D4AF37; /* Deep pink border */
   top: 15px;
   border-radius: 50%;
   z-index: 100;
@@ -797,9 +798,9 @@ experience {
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid  #FFD700;
+  border: medium solid #D4AF37;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #FFD700; /* Deep pink arrows */
+  border-color: transparent transparent transparent #D4AF37; /* Deep pink arrows */
 }
 /* arrows pointing left  */
 .experience .right::before {
@@ -810,18 +811,18 @@ experience {
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid  #FFD700;
+  border: medium solid  #D4AF37;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #FFD700 transparent transparent; /* Deep pink arrows */
+  border-color: transparent #D4AF37 transparent transparent; /* Deep pink arrows */
 }
 .experience .right::after {
   left: -16px;
 }
 .experience .content {
-  background-color: #FFD700; /* Deep pink content background */
+  background-color: #D4AF37; /* Deep pink content background */
   position: relative;
   border-radius: 6px;
-  background: #FFD700; /* Pink gradient background */
+  background: #D4AF37; /* Pink gradient background */
   border-radius: 8px; /* Rounded corners */
   transition: all 0.3s ease-in-out; /* Smooth transition */
   box-shadow: 0 4px 10px rgba(255, 105, 180, 0.3); /* Box shadow effect */
@@ -922,7 +923,7 @@ experience {
 
 .contact-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0px 4px 10px #FFD700;
+  box-shadow: 0px 4px 10px #D4AF37;
 }
 
 .contact-card a {
@@ -935,7 +936,7 @@ experience {
 
 .contact-card i {
   font-size: 2rem;
-  color: #FFD700;
+  color: #D4AF37;
 }
 
 .contact-card p {
@@ -988,7 +989,7 @@ experience {
 .footer p {
   font-size: 20px;
   margin-bottom: 1rem;
-  border-top: 1px solid #FFD700;
+  border-top: 1px solid #D4AF37;
 }
 /* footer section ends */
 
