@@ -397,8 +397,7 @@ header .logo i {
   flex-direction: row;
   gap: 1rem;
   flex-wrap: wrap;
-  padding: 4rem;
-  max-height: 700px; /* Reduces the maximum width of the section */
+  max-height: 600px; /* Reduces the maximum width of the section */
   margin: 0; /* Centers the section */
 }
 
@@ -564,7 +563,7 @@ header .logo i {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 500px;
+  height: 400px;
   margin-top: 0;
   padding: 0;
  
@@ -578,11 +577,10 @@ header .logo i {
   width: 100%;
   text-align: center;
   position: relative;
-  margin-top: 40px;
   overflow: hidden;
   transition: 0.3s;
-  height: 400px;
-  padding: 50px;
+  height: 350px;
+  padding: 20px;
 }
 
 /* Image container with transparent grey background */
@@ -677,7 +675,7 @@ header .logo i {
 }
 .work {
   width: 100%;
-  padding: 50px 0;
+  padding: 30px 0;
   text-align: center;
   color: #fff;
 }
@@ -737,10 +735,12 @@ header .logo i {
   margin: 0;
   text-align: center;
   position: relative;
+  margin-top: 20px;
   padding-bottom: 1rem; /* Space for the border */
   font-size: 3.5rem;
   font-weight: 800;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .experience h2 .heading::after {
@@ -905,7 +905,7 @@ experience {
 
 /* Contact Section */
 .contact {
-  margin-top: 0 !important;
+  margin-top: 10px;
   background-color:  #101010;
   text-align: center;
   min-height: auto; /* or remove this if unnecessary */
