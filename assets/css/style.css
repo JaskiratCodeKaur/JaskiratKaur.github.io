@@ -668,6 +668,7 @@ header .logo i {
 /* education section ends */
 
 /* work section starts */
+/* Existing CSS */
 .work {
   background-color: #101010;
   margin-top: 0;
@@ -698,16 +699,6 @@ header .logo i {
   width: 100%;
 }
 
-.project-end {
-  display: flex; /* Ensures images stay in a row */
-  justify-content: center; /* Centers images horizontally */
-  align-items: center; /* Aligns them vertically */
-  gap: 20px; /* Space between images */
-  flex-wrap: nowrap; 
-  width: 100%; 
-}
-
-
 .project-img {
   width: 100%;
   height: auto;
@@ -719,9 +710,20 @@ header .logo i {
 .project-img:hover {
   transform: scale(1.1);
   box-shadow: 0 10px 30px rgba(255, 255, 255, 0.2);
-  filter: brightness(1.2);
+  filter: brightness(1);
 }
 
+/* New CSS for centering the last two images */
+.image-container a:nth-last-child(-n+2) {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* New CSS for centering the last two images */
+.center-last-two {
+  grid-column: span 2; /* Span across two columns */
+  justify-self: center; /* Center horizontally */
+}
 /* work section ends */
 
 /* experience section starts */
